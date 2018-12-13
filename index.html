@@ -15,8 +15,189 @@
   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./resources/styles.css" type="text/css">
   </head>
+
   <body>
 
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Explore</a></li>
+			    <li><a href="#">Start a project</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+        <img class="navbar-brand navbar-right collapse navbar-collapse" src="./resources/images/logo.png" alt="Picture of Logo">
+      </div>
+    </nav>
+
+<!--Here we added Bootstrap to the elements. Class Navbar for the navigation bar element. Navbar-default was
+used to give the basic padding and gray background color. Lastly the navbar-fixed-top was used to
+keep the navigation bar fixed to the top of the page at all times.
+
+Next we wish to keep the navigation bar contained to fill the whole webpage. this will be the div container.
+
+Next we have an unordered list or menu these are known to be navs so we use the class of nav and navbar-nav to
+always represent an unordered list inside a navigation bar with links.
+
+Next the li in the ul list, the first one will be in active status to give it the appearance of being used.
+
+Lastly the image this will have the navbar-brand class to represent a logo. we use the navbar-right class
+to indicate that the content of this will be aligned to the right. We also add the collapse class to indicate
+that the image will collapse or be hidden upon command. navbar-collapse class is use to indicate that
+when the screen size changes the image will collapse and be replaced with a list, or another item. -->
+
+
+<!-- JUMBOTRON & CAROUSEL -->
+
+<div class="carousel">
+
+  <!-- Goal is to create a carousel of jumbotron or a carousel of stories that have importance-->
+
+	<div class="jumbotron background-bike">
+		<div class="container-fluid">
+			<h1>GET GOING.</h1>
+			<p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators
+         get rewards.</p>
+		</div>
+	</div>
+  <!-- Each topoic will have class of jumbrotron to have space dedicated to its topic. -->
+
+ 	<div class="jumbotron background-beer">
+		<div class="container-fluid">
+			<h1>GET THINKING.</h1>
+			<p>Meet like-minded individuals who will help fuel your creative juices.</p>
+		</div>
+	</div>
+
+	<div class="jumbotron background-flowers">
+		<div class="container-fluid">
+			<h1>GET CREATING.</h1>
+			<p>Stop overthinking projects and begin putting them out into the world.</p>
+		</div>
+	</div>
+
+	<div class="jumbotron background-duffel">
+		<div class="container-fluid">
+			<h1>GET STARTED.</h1>
+			<p>What are you waiting for? Today's the day for your next big idea.</p>
+		</div>
+	</div>
+<!-- Each of these will be in a jumbotron and scrolling will happen in the carousel-->
+</div>
+
+<!-- RELATIVE WRAPPER -->
+
+<div class="relative-wrapper">
+<a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
+</div>
+
+<!-- class of the link is a button but also a contextual color of primary and large button.-->
+
+
+<!-- FEATURED PROJECT-->
+
+<div class="container featured-project">
+
+	<div class="row">
+		<h2 class="col-xs-12">Featured project</h2>
+	</div>
+
+	<div class="row">
+
+		<div class="col-xs-12 col-md-6">
+			<div class="image-container">
+				<a href="#"><img src="./resources/images/featured-project.png"></a>
+			</div>
+		</div>
+
+		<div class="col-xs-6 col-md-3">
+			<h3>DeFrost: A Documentary</h3>
+			<p>by Leo De Firenze</p>
+			<p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley.
+        This is a story about my mother's childhood.
+			This film attempts to capture vignettes of her upbringing â€” her family,
+      friends, pets, and eventual depature from a freezing valley in
+      Northern Italy â€” through beautiful cinematography and narration.</p>
+		</div>
+
+		<div class="col-xs-6 col-md-3 categories">
+			<h3>Product Categories</h3>
+			<ul>
+				<li>Art</li>
+				<li>Books</li>
+				<li>Crystals</li>
+				<li>Design</li>
+				<li>Doodles</li>
+				<li>Deedlybobs</li>
+				<li>Farming</li>
+        <li>Gadgets</li>
+				<li>Hoverboards</li>
+				<li>Jams, Jellies, Etc.</li>
+				<li>Magazines</li>
+				<li>Plants</li>
+				<li>Snakes &amp; Snake Equipment</li>
+				<li>Tables</li>
+				<li>Ventriliquist Figures</li>
+				<li>Yoyos</li>
+			</ul>
+		</div>
+
+	</div>
+
+</div>
+
+<!--PROJECTS-->
+
+<div class="container">
+
+	<div class="row">
+		<h2 class="col-xs-12">Projects</h2>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 project">
+			<div class="image-container">
+				<a href="#"><img src="resources/images/project1.png"></a>
+			</div>
+			<h3>The Right Tights</h3>
+			<p>by Riley Mae</p>
+			<p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed
+        to last (no more ladders!). Made with high quality,
+        completely toxic-free materials. Custom colors available to all backers.</p>
+		</div>
+		<div class="col-xs-12 col-sm-4 project">
+			<div class="image-container">
+				<a href="#"><img src="resources/images/project2.png"></a>
+			</div>
+			<h3>Peppermint Smart Home</h3>
+			<p>by Brian McDonald</p>
+			<p>Instantly upgrade your home with technology that keeps your family
+        and home safe. We've made Peppermint easy to use. Just talk to your phone
+        and Peppermint will help you every step of the way.</p>
+		</div>
+		<div class="col-xs-12 col-sm-4 project">
+			<div class="image-container">
+				<a href="#"><img src="resources/images/project3.png"></a>
+			</div>
+			<h3>American Streetlife</h3>
+			<p>by Patrick Wallace</p>
+			<p>I've been traveling around the United States for the past two years.
+        I've slept on hundreds of couches, more than a few benches, and
+        captured my experiences in this 120 page photo album.</p>
+		</div>
+	</div>
+
+</div>
+
+<!-- Help -->
+
+<div class="container-fluid help">
+	<strong>Having trouble thinking of an idea?</strong>
+	<p>Inventorsâ€™ block strikes at the worst times.
+    But thatâ€™s all changed with Jumpstartâ€™s
+    Good Idea Generator Lite (GIGLi).</p>
+	<a href="#" class="btn btn-primary btn-lg">Learn more</a>
+</div>
 
 
 
@@ -25,6 +206,6 @@
 			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 			  crossorigin="anonymous"></script>
     <script type="text/javascript" src="./slick/slick.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>  
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
